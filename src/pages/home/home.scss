@@ -1,0 +1,61 @@
+.home-container {
+  padding: 16px;
+}
+.search-bar {
+  display: flex;
+  margin-bottom: 12px;
+  .search-input {
+    flex: 1;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 8px;
+  }
+  .search-btn {
+    margin-left: 8px;
+  }
+}
+.diary-list {
+  min-height: 300px;
+}
+.diary-card {
+  display: flex;
+  margin-bottom: 16px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #f0f1f2;
+  .cover {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+  }
+  .info {
+    flex: 1;
+    padding: 8px;
+    .title {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .author, .date {
+      font-size: 12px;
+      color: #888;
+      margin-right: 8px;
+    }
+  }
+}
+.empty {
+  text-align: center;
+  color: #bbb;
+  margin-top: 40px;
+}
+.publish-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 48px;
+  width: 120px;
+  height: 44px;
+  border-radius: 22px;
+  background: #1890ff;
+  color: #fff;
+  font-size: 18px;
+} 
